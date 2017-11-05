@@ -9,8 +9,7 @@ class Timer extends Component {
 	ticker(){
 		this.setState({clock: new Date() - this.props.start})
 	}
-
-
+	
 	constructor(props){
 		super(props);
 	
