@@ -6,6 +6,6 @@ The logic behind that works using the inbuilt React function `componentDidMount(
 
 Every single element of the page has been divided into single React components and declared into separate files, called in the main App.js file.
 
-How to start
+## How to start
 
 After you forked this repo run npm start on your terminal and the app will be executed in your http://localhost:3000 on your browser.
