@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class Timer extends Component {
+
+	componentDidMount(){
+		this.timer = setInterval(this.ticker, 1000)
+	}
+
+	ticker(){
+		this.setState({clock: new Date() - this.props.start})
+	}
+
+
 	constructor(props){
 		super(props);
 	
